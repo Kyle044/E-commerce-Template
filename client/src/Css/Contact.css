@@ -1,0 +1,42 @@
+.containerContact {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerContact .card {
+  background-color: blueviolet;
+  height: 12rem;
+  width: 13rem;
+  margin: 1rem;
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerContact .card p {
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1vh;
+  height: 23vh;
+}
+.circle {
+  height: 8rem;
+  width: 8rem;
+  background-color: white;
+  margin: -13% auto;
+  border-radius: 120px;
+  -moz-border-radius: 120px;
+  -webkit-border-radius: 120px;
+  box-shadow: 7px 9px 20px -3px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 7px 9px 20px -3px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 7px 9px 20px -3px rgba(0, 0, 0, 0.54);
+}
