@@ -28,7 +28,8 @@
   height: 50vh;
 }
 .grp {
-  width: 24%;
+  padding: 10px, 10px;
+  width: 30%;
   box-shadow: 7px 9px 20px -3px rgba(0, 0, 0, 0.54);
   -webkit-box-shadow: 7px 9px 20px -3px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 7px 9px 20px -3px rgba(0, 0, 0, 0.54);

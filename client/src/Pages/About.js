@@ -30,21 +30,21 @@ function About() {
               setState(options[1]);
             }}
           >
-            Donate
+            <h4>Donate</h4>
           </div>
           <div
             onClick={() => {
               setState(options[0]);
             }}
           >
-            Merchandise
+            <h4>Merchandise</h4>
           </div>
           <div
             onClick={() => {
               setState(options[2]);
             }}
           >
-            Keep in Touch
+            <h4>Keep in Touch</h4>
           </div>
         </div>
 

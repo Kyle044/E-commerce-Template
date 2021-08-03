@@ -41,9 +41,15 @@ function Nav() {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem onClick={handleClose}>Profile</MenuItem>
-            <MenuItem onClick={handleClose}>My account</MenuItem>
-            <MenuItem onClick={handleClose}>Logout</MenuItem>
+            <Link to="/">
+              <MenuItem onClick={handleClose}>Home</MenuItem>
+            </Link>
+            <Link to="/About">
+              <MenuItem onClick={handleClose}>About</MenuItem>
+            </Link>
+            <Link to="/Contact">
+              <MenuItem onClick={handleClose}>Contact</MenuItem>
+            </Link>
           </Menu>
         </div>
       )}
