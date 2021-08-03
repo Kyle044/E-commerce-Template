@@ -4,7 +4,7 @@ function Home() {
   return (
     <div>
       <Nav />
-      <h1>new branch</h1>
+      <h1>new branchs</h1>
     </div>
   );
 }
