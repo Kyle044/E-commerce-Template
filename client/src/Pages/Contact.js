@@ -10,7 +10,7 @@ function Contact() {
     <div>
       <Nav />
       <header className="header">
-        <h3>Contact us</h3>
+        <h3 className="text-xl mb-5">Contact us</h3>
         <p>Get in touch and let us know how we can help.</p>
       </header>
       <div className="containerContact">
@@ -64,7 +64,7 @@ function Contact() {
           </div>
           <div className="shet2">
             <h2>Philippines</h2>
-            <p>Address : Phase 11 Blk 10 lot 6 Carmona Estates Cavite</p>
+            <p>Address : Phase 11 Blk 10 lot 6 Carmona Estates</p>
             <p>Phone Number : 09562516297</p>
             <p>Email : Kylegwapo04@gmail.com</p>
           </div>
