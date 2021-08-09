@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../Css/Nav.css";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import useWindowDimensions from "../Functions/getDimension";
 import MenuIcon from "@material-ui/icons/Menu";
-function Nav() {
+function Nav({ history }) {
   const { height, width } = useWindowDimensions();
   const [anchorEl, setAnchorEl] = useState(null);
 
@@ -18,7 +18,14 @@ function Nav() {
   };
   return (
     <div className="ParentDiv">
-      <h1>E - Commerce</h1>
+      <h1
+        className="cursor-pointer slec"
+        onClick={() => {
+          history.push("/");
+        }}
+      >
+        E - Commerce
+      </h1>
       {width >= 800 ? (
         <ul>
           <li>
@@ -57,4 +64,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default withRouter(Nav);

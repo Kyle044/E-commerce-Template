@@ -9,9 +9,12 @@ const uri = process.env.URI;
 app.use(cors());
 app.use(morgan("dev"));
 app.use(express.json());
+const url = "mongodb://127.0.0.1:27017";
+const dbName = "E-commerce";
 
 mongoose
-  .connect(uri, {
+  .connect(url, {
+    dbName: dbName,
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true

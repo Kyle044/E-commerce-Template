@@ -1,10 +1,18 @@
 .ParentDiv {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 91.666667%;
   margin: auto;
   align-items: center;
   padding: 10px;
+}
+.slec {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .ParentDiv ul {
